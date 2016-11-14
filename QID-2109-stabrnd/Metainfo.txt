@@ -1,0 +1,9 @@
+Name of QuantLet: stabrnd
+
+Published in: Statistics of Financial Markets : Exercises and Solutions
+
+Description: Function needed for?
+
+See also: SFSheavytail, SFSmsr1
+
+Submitted: Thu, January 24 2013 by Franziska Schulz

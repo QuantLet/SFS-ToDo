@@ -1,0 +1,16 @@
+Name of QuantLet: SFSevt2
+
+Published in: Statistics of Financial Markets : Exercises and Solutions
+
+Description: 'Generates CDFs for normal distribution of a pseudo random variable with extreme value (Gumbel, Frechet and Weibull) and a randomnormal distributed variable.'
+
+Keywords: 'Frechet, Weibull, cdf, distribution, extreme-value, gumbel, normal, pp-plot, random'
+
+See also: 'SFS_mef_frechet, SFEevt1, SFEevt2, SFSheavytail, SFSmeanExcessFun, SFSmeffrechet, SFSmsr1, SFSportfolio, SFSportfolio, SFSportfolio, SFStailGEV, SFStailGEV, SFStailGPareto, SFStailGPareto, SFStailport, SFSvar_block_max_backtesting, SFSvar_block_max_params, SFSvar_pot_backtesting, SFSvar_pot_params'
+
+Author: Juergen Franke, Lasse Groth
+
+Submitted: Tue, December 22 2009 by Lasse Groth
+
+Example: The plots show the distribution for 1. Gumbel, 2. Frechet and 3. Weibull.
+

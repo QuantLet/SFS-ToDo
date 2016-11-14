@@ -1,0 +1,20 @@
+Name of QuantLet: SFSmsr1
+
+Published in: Statistics of Financial Markets : Exercises and Solutions
+
+Description: 'Shows the rate of convergence to infinity for the stable distributed random variables is higher than for standard normal variables. Plots the convergence rate of maximum for n random variables with a standard normal cdf and with a 1:1-stable cdf. Refers to exercise 16.2 in SFS. Requires the quantlet "stabrnd.m" for MatLab.'
+
+Keywords: cdf, normal, random, stable
+
+See also: 'SFSevt2, SFSheavytail, SFSmeanExcessFun, SFSportfolio, SFStailGEV, SFStailGPareto, SFStailport, SFSvar_block_max_params, SFSvar_pot_params, stabrnd'
+
+Author: Lasse Groth
+
+Submitted: Fri, September 30 2011 by Awdesch Melzer
+
+Example: The plots show the convergence rate of maxima for 1) standard normal cdf and 2) 1:1-stable cdf.
+
+
+
+
+

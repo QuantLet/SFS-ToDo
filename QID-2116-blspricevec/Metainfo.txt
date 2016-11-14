@@ -1,0 +1,9 @@
+Name of QuantLet: blspricevec
+
+Published in: Statistics of Financial Markets : Exercises and Solutions
+
+Description: 'Black Scholes formula for vector inputs, function needed for???'
+
+See also: SFSstoploss
+
+Submitted: Mon, January 28 2013 by Franziska Schulz

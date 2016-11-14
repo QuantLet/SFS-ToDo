@@ -1,0 +1,17 @@
+Name of QuantLet: SFS_mef_frechet
+
+Published in: Statistics of Financial Markets : Exercises and Solutions
+
+Description: 'Plots the theoretical and empirical mean excess function e(u) of the Frechet distribution with alpha = 2.'
+
+Keywords: Frechet, MEF, distribution
+
+See also: 'SFSevt2, SFSportfolio, SFStailGEV, SFStailGPareto, SFStailport, SFSvar_block_max_params, SFSvar_pot_params'
+
+Author: Lasse Groth, Barbara Choros-Tomczyk
+
+Submitted: Tue, December 22 2009 by Lasse Groth
+
+Example: 'This plot shows the theoretical (red line) and empirical (blue line) mean excess function for the Frechet distriubtion with alpha = 2.'
+
+
