@@ -1,6 +1,6 @@
 Name of QuantLet: SFSvar_block_max_backtesting
 
-Published in: Statistics of Financial Markets : Exercises and Solutions
+Published in: 'Statistics of Financial Markets : Exercises and Solutions'
 
 Description: 'Provides backtesting results for Value-at-Risk with Block Maxima Model. Corresponds to exercise 16.9 in SFS.'
 

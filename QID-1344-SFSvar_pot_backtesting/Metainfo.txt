@@ -1,6 +1,6 @@
 Name of QuantLet: SFSvar_pot_backtesting
 
-Published in: Statistics of Financial Markets : Exercises and Solutions
+Published in: 'Statistics of Financial Markets : Exercises and Solutions'
 
 Description: 'Provides backtesting results for Value at Risk computed with Peaks Over Treshold model with generalized Pareto distribution. Corresponds to exercise 16.9 in SFS.'
 

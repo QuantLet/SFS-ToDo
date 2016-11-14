@@ -1,6 +1,6 @@
 Name of QuantLet: SFSevt2
 
-Published in: Statistics of Financial Markets : Exercises and Solutions
+Published in: 'Statistics of Financial Markets : Exercises and Solutions'
 
 Description: 'Generates CDFs for normal distribution of a pseudo random variable with extreme value (Gumbel, Frechet and Weibull) and a randomnormal distributed variable.'
 

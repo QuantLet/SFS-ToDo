@@ -1,6 +1,6 @@
 Name of QuantLet: SFSheavytail
 
-Published in: Statistics of Financial Markets : Exercises and Solutions
+Published in: 'Statistics of Financial Markets : Exercises and Solutions'
 
 Description: 'Simulation of 500 random normal (left) and 1.5-stable (right) normal variables with 25% and 75% quantiles (black lines and 2.5% and 97.5% quantiles (red lines) of the distributions. Refers to exercise 16.1 in SFS. SFSheavytail depends on the function stabrnd for MatLab.'
 

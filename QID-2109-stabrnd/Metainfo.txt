@@ -1,6 +1,6 @@
 Name of QuantLet: stabrnd
 
-Published in: Statistics of Financial Markets : Exercises and Solutions
+Published in: 'Statistics of Financial Markets : Exercises and Solutions'
 
 Description: Function needed for?
 
