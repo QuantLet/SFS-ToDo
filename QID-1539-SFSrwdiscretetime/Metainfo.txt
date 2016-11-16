@@ -4,7 +4,7 @@ Published in: 'Statistics of Financial Markets : Exercises and Solutions'
 
 Description: 'Simulates a random stock price movement in discrete time with delta t = 1 day (upper panel) and 1 hour (lower panel) respectively for a period of one year.'
 
-Keywords: brownian-motion, discrete, random
+Keywords: brownian-motion, discrete, random, simulation, stock-price
 
 See also: SFSbb
 

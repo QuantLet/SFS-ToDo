@@ -4,7 +4,7 @@ Published in: 'Statistics of Financial Markets : Exercises and Solutions'
 
 Description: 'Provides backtesting results for Value at Risk computed with Peaks Over Treshold model with generalized Pareto distribution. Corresponds to exercise 16.9 in SFS.'
 
-Keywords: POT, VaR, pareto
+Keywords: POT, VaR, pareto, portfolio, historical moving window, backtest, backtesting
 
 See also: 'SFEdenport, SFSevt2, SFSheavytail, SFSmeanExcessFun, SFSportfolio, SFStailGEV, SFStailGPareto, SFStailport, SFSvar_block_max_backtesting, SFSvar_block_max_params, SFSvar_pot_params, SFSvarblockmaxbacktesting'
 

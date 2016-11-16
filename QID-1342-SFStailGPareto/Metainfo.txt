@@ -4,7 +4,7 @@ Published in: 'Statistics of Financial Markets : Exercises and Solutions'
 
 Description: 'Estimates the parameters of a Generalized Pareto Distribution for the negative log-returns of a portfolio (Bayer, BMW, Siemens) for the time period from 1992-01-01 to 2006-09-21 and produces a QQ-plot and PP-plot. Corresponds to exercise 16.5 in SFS.'
 
-Keywords: GEV, distribution, pareto, returns
+Keywords: GEV, distribution, pareto, returns, portfolio
 
 See also: 'SFSmsr1, SFSheavytail, SFS_mef_frechet, SFEgpdist, SFEtailGEV_pp, SFSevt2, SFSmeanExcessFun, SFSportfolio, SFStailGEV, SFStailport, SFSvar_block_max_backtesting, SFSvar_block_max_params, SFSvar_pot_backtesting, SFSvar_pot_params, SFSvarblockmaxbacktesting, SFSvarpotbacktesting'
 

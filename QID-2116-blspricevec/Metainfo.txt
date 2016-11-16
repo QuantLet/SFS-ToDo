@@ -2,8 +2,12 @@ Name of QuantLet: blspricevec
 
 Published in: 'Statistics of Financial Markets : Exercises and Solutions'
 
-Description: 'Black Scholes formula for vector inputs, function needed for???'
+Description: 'Black Scholes formula for vector inputs, MatLab function needed for SFSstoploss.'
+
+Keywords: 'asset, black-scholes, call, cost, delta, european-option, financial, hedging, option, option-price, price, simulation, stock-price, strategy'
 
 See also: SFSstoploss
+
+Author: Derrick Kanngiesser
 
 Submitted: Mon, January 28 2013 by Franziska Schulz

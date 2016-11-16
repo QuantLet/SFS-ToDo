@@ -2,8 +2,24 @@ Name of QuantLet: stabrnd
 
 Published in: 'Statistics of Financial Markets : Exercises and Solutions'
 
-Description: Function needed for?
+Description: 'Contains a MatLab function which is needed for the Qs SFSheavytail and SFSmsr1.'
+
+Keywords: distribution, normal, quantile, random, stable, cdf, variable
 
 See also: SFSheavytail, SFSmsr1
 
+Author: Lasse Groth
+
 Submitted: Thu, January 24 2013 by Franziska Schulz
+
+
+
+
+
+
+
+
+
+
+
+

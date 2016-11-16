@@ -4,7 +4,7 @@ Published in: 'Statistics of Financial Markets : Exercises and Solutions'
 
 Description: 'Plots the theoretical and empirical mean excess function e(u) of the Frechet distribution with alpha = 2.'
 
-Keywords: Frechet, MEF, distribution
+Keywords: Frechet, MEF, distribution, empirical, plot
 
 See also: 'SFSevt2, SFSportfolio, SFStailGEV, SFStailGPareto, SFStailport, SFSvar_block_max_params, SFSvar_pot_params'
 
