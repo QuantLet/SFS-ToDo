@@ -21,14 +21,14 @@
 # ------------------------------------------------------------------------------
  
 #Load library
-install.packages("QRMlib")
-library(QRMlib)
+install.packages("QRM")
+library(QRM)
  
 #Close all plots and clear variables
 graphics.off()
 rm(list=ls(all=TRUE))
  
-n=100;
+n = 100;
  
 # Gumbel
 gumb1 = rGEV(100, xi=0, mu=0, sigma=1)

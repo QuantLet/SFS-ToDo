@@ -22,23 +22,23 @@
 # Author:      Lasse Groth 20091006
 # ------------------------------------------------------------------------------
 #install library
-install.packages("QRMlib")
+install.packages("QRM")
 
 #Load library
-library(QRMlib)
+library(QRM)
  
 #Close all plots and clear variables
 graphics.off()
 rm(list=ls(all=TRUE))
  
-n0=10
-i = n0
-n = 10000 / n0
-flag=1
+n0   = 10
+i    = n0
+n    = 10000 / n0
+flag = 1
  
-m=n/n0
+m = n/n0
  
-dat1=dat2=matrix(,100,2)
+dat1 = dat2 = matrix(,100,2)
  
 for(i in 1:m){
  

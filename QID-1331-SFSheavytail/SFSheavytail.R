@@ -22,8 +22,8 @@
 #
  
 #Load library
-install.packages("QRMlib")
-library(QRMlib)
+install.packages("QRM")
+library(QRM)
  
 #Close all plots and clear variables
 graphics.off()
@@ -36,15 +36,15 @@ nor = rnorm(n,0,1)
 sta = rstable(n,1.5,0)
  
 #Determine the quantiles
-sumnor = quantile(nor,c(.025,.25,.50,.75,.975))
-noru   = sumnor[2]*matrix(1,n,1)
-norl   = sumnor[4]*matrix(1,n,1)
+sumnor  = quantile(nor,c(.025,.25,.50,.75,.975))
+noru    = sumnor[2]*matrix(1,n,1)
+norl    = sumnor[4]*matrix(1,n,1)
 noruu   = sumnor[1]*matrix(1,n,1)
 norll   = sumnor[5]*matrix(1,n,1)
  
-sumsta = quantile(sta,c(.025,.25,.50,.75,.975))
-stau   = sumsta[2]*matrix(1,n,1)
-stal   = sumsta[4]*matrix(1,n,1)
+sumsta  = quantile(sta,c(.025,.25,.50,.75,.975))
+stau    = sumsta[2]*matrix(1,n,1)
+stal    = sumsta[4]*matrix(1,n,1)
 stauu   = sumsta[1]*matrix(1,n,1)
 stall   = sumsta[5]*matrix(1,n,1)
  

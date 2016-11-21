@@ -21,8 +21,8 @@
 # ------------------------------------------------------------------------------
  
 #Load library
-install.packages("QRMlib")
-library(QRMlib)
+install.packages("QRM")
+library(QRM)
  
 #Close all plots and clear variables
 graphics.off()
@@ -31,21 +31,21 @@ rm(list=ls(all=TRUE))
 #Set working directory and load datasets
 setwd("C:/...")
  
-a=read.table("Bay9906_close_2kPoints.txt")
-b=read.table("Bmw9906_close_2kPoints.txt")
-c=read.table("Sie9906_close_2kPoints.txt")
+a = read.table("Bay9906_close_2kPoints.txt")
+b = read.table("Bmw9906_close_2kPoints.txt")
+c = read.table("Sie9906_close_2kPoints.txt")
  
-d=a+b+c                                                           #Create the portfolio
-lg=dim(d)
-x=log(d[-lg[1],])-log(d[-1,])                                   #Negative log-returns
+d  = a+b+c                                                       #Create the portfolio
+lg = dim(d)
+x  = log(d[-lg[1],])-log(d[-1,])                                 #Negative log-returns
  
-n=100                                                             #Number of extreme observations
-GPD=fit.GPDb(x, nextremes=n, method="ml", information="observed") #Fit the Generalized Pareto Distribution
+n   = 100                                                        #Number of extreme observations
+GPD = fit.GPD(x, nextremes=n, type="ml", information="observed") #Fit the Generalized Pareto Distribution
  
-t=(1:n)/(n+1)
-y1=qGPD(t,GPD$par.ests[1],GPD$par.ests[2])                        #Calculate quantiles for the Generalized Pareto Distribution
-GPD.POT=sort(GPD$data)-GPD$threshold                              #Peak Over Treshol values
-y2=pGPD(GPD.POT, GPD$par.ests[1], GPD$par.ests[2])                #Calcualte probabilities for the generalized Pareto distribution
+t       = (1:n)/(n+1)
+y1      = qGPD(t,GPD$par.ests[1],GPD$par.ests[2])                #Calculate quantiles for the Generalized Pareto Distribution
+GPD.POT = sort(GPD$data)-GPD$threshold                           #Peak Over Treshol values
+y2      = pGPD(GPD.POT, GPD$par.ests[1], GPD$par.ests[2])        #Calcualte probabilities for the generalized Pareto distribution
  
  
 #Plot the QQ plot

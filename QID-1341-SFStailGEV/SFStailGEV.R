@@ -21,8 +21,8 @@
 # ------------------------------------------------------------------------------
  
 #Load library
-install.packages("QRMlib")
-library(QRMlib)
+install.packages("QRM")
+library(QRM)
  
 #Close all plots and clear variables
 graphics.off()
@@ -31,36 +31,38 @@ rm(list=ls(all=TRUE))
 #Set working directory and load datasets
 setwd("C:/...")
  
-a=read.table("Bay9906_close_2kPoints.txt")
-b=read.table("Bmw9906_close_2kPoints.txt")
-c=read.table("Sie9906_close_2kPoints.txt")
+a = read.table("Bay9906_close_2kPoints.txt")
+b = read.table("Bmw9906_close_2kPoints.txt")
+c = read.table("Sie9906_close_2kPoints.txt")
  
-d=a+b+c                         #Create the portfolio
-lg=dim(d)
-x=log(d[-lg[1],])-log(d[-1,]) #Negative log-return
+d  = a+b+c                         #Create the portfolio
+lg = dim(d)
+x  = log(d[-lg[1],])-log(d[-1,]) #Negative log-return
  
 #Determine the Block Maxima data
-T=length(x)
-n=20
-k=T/n
-z=matrix(,,,)
+T = length(x)
+n = 20
+k = T/n
+z = matrix(,,,)
  
 for(j in 1:k){
-  r=x[((j-1)*n+1):(j*n)]
-  z[j]=max(r)
+  
+  r    = x[((j-1)*n+1):(j*n)]
+  z[j] = max(r)
 }
-w=sort(z)
+
+w = sort(z)
  
-GEV=fit.GEV(z)        #Fit the Generalized Extreme Value Distribution
+GEV = fit.GEV(z)        #Fit the Generalized Extreme Value Distribution
  
-K=GEV$par.ests[1]     #shape parameter
-mu=GEV$par.ests[2]    #location parameter
-sigma=GEV$par.ests[3] #scale parameter
+K     = GEV$par.ests[1] #shape parameter
+mu    = GEV$par.ests[2] #location parameter
+sigma = GEV$par.ests[3] #scale parameter
  
-t=(1:k)/(k+1)
+t = (1:k)/(k+1)
  
-y1=qGEV(t,K,mu,sigma)
-y2=pGEV(w,K,mu,sigma)
+y1 = qGEV(t,K,mu,sigma)
+y2 = pGEV(w,K,mu,sigma)
  
 #Plot the QQ plot
 dev.new()

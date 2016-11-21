@@ -12,7 +12,7 @@ Author: Lasse Groth
 
 Submitted: Sat, October 01 2011 by Awdesch Melzer
 
-Datafile: Bay9906_close_2kPoints.txt, Bmw9906_close_2kPoints.txt, VaR9906_pot_Portf.txt
+Datafile: Bay9906_close_2kPoints.txt, Bmw9906_close_2kPoints.txt, Sie9906_close_2kPoints.txt, VaR9906_pot_Portf.txt
 
 Example: 'var_pot_backtesting(x,y,z,v,h) where x,y,z are vectors of return; h is the size of the window and v is values of Value at Riskp produces p the number of exceedances for Value at Risk and a
 	 Value-at-Risk estimation at 0.05 level for portfolio: Bayer, BMW, Siemens with size of moving window 250. Backtesting result alpha = 0.0571.'

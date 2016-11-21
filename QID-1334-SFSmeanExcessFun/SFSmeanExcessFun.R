@@ -27,9 +27,9 @@
 
  
 #Load libraries
-install.packages(c("matlab","QRMlib"))
+install.packages(c("matlab","QRM"))
 library(matlab)
-library(QRMlib)
+library(QRM)
  
 #Close all plots and clear variables
 graphics.off()
@@ -38,28 +38,28 @@ rm(list=ls(all=TRUE))
 #Set working directory and load datasets
 setwd("C:/...")
  
-a=read.table("Bay9906_close_2kPoints.txt")
-b=read.table("Bmw9906_close_2kPoints.txt")
-c=read.table("Sie9906_close_2kPoints.txt")
+a = read.table("Bay9906_close_2kPoints.txt")
+b = read.table("Bmw9906_close_2kPoints.txt")
+c = read.table("Sie9906_close_2kPoints.txt")
  
-d=a+b+c                         #Create the portfolio
-lg=dim(d)
-x=log(d[-lg[1],])-log(d[-1,]) #Negative log-returns
+d  = a+b+c                       #Create the portfolio
+lg = dim(d)
+x  = log(d[-lg[1],])-log(d[-1,]) #Negative log-returns
  
-n=length(x)
-x=sort(x, decreasing = TRUE)
+n = length(x)
+x = sort(x, decreasing = TRUE)
  
-m=100
-x1=x[1:m]
+m  = 100
+x1 = x[1:m]
  
 #empirical mean excess function
-t=x[1:(m+1)] #t must be >0
+t = x[1:(m+1)] #t must be >0
  
 MEF=matrix(,,,)
  
 for(i in 1:length(t)){
-    y=x[find(x>t[i])]
-    MEF[i]=mean(y-t[i])
+    y      = x[find(x>t[i])]
+    MEF[i] = mean(y-t[i])
 }
  
 plot(t,MEF,type="l",col="blue",lwd=3,ylim=c(0.005,0.04),xlab="u",ylab="e(u)")
@@ -67,16 +67,16 @@ title('Mean Excess Functions')
  
 #mean excess function of generalized Pareto distribution, theorem 18.8
 k=100
-GPD=fit.GPDb(x, nextremes=k, method="ml", information="observed")
-K=GPD$par.ests[1]
-sigma=GPD$par.ests[2]
-gpme=(sigma+K*(t-mean(t)))/(1-K)
+GPD   = fit.GPD(x, nextremes=k, type="ml", information="observed")
+K     = GPD$par.ests[1]
+sigma = GPD$par.ests[2]
+gpme  = (sigma+K*(t-mean(t)))/(1-K)
  
 lines(t,gpme,lwd=3)
  
 #Hill estimator, mean excess function of Pareto distribution
-alphaH=(mean(log(x1))-log(x1[k]))^(-1)
-sigmaH=x1[k]*(k/n)^(1/alphaH)
-gp1me=t/(alphaH-1)
+alphaH = (mean(log(x1))-log(x1[k]))^(-1)
+sigmaH = x1[k]*(k/n)^(1/alphaH)
+gp1me  = t/(alphaH-1)
  
 lines(t,gp1me,col="red",lwd=3,lty=5)
