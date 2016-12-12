@@ -22,19 +22,19 @@
 % Author:       Barbara Choros, 31.10.2007
 % ---------------------------------------------------------------------
 
-%function p=SFSvar_block_max_backtesting
+%function p = SFSvar_block_max_backtesting
 clear;
 clc;
 close all
-x=load('Bay9906_close_2kPoints.txt','-ascii');
-y=load('Bmw9906_close_2kPoints.txt','-ascii');
-z=load('Sie9906_close_2kPoints.txt','-ascii');
-h=250;
-v=load('VaR9906_bMax_Portf.txt','-ascii');
-p=var_block_max_backtesting(x,y,z,v,h);
+x = load('Bay9906_close_2kPoints.txt','-ascii');
+y = load('Bmw9906_close_2kPoints.txt','-ascii');
+z = load('Sie9906_close_2kPoints.txt','-ascii');
+h = 250;
+v = load('VaR9906_bMax_Portf.txt','-ascii');
+p = var_block_max_backtesting(x,y,z,v,h);
 title('Block Maxima Model','FontSize',16,'FontWeight','Bold')
 
-    % to save the plot in pdf or png please uncomment next 2 lines:
+   % to save the plot in pdf or png please uncomment next 2 lines:
  % print -painters -dpdf -r600 SFSvar_block_max_backtesting.pdf
  % print -painters -dpng -r600 SFSvar_block_max_backtesting.png
 

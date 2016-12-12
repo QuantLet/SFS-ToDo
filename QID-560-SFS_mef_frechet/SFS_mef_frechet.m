@@ -25,16 +25,16 @@ clc
 close all
 
 nsim =  1000;
-    urv=rand(nsim,1);
-    rv=ones(nsim,1)./((-log(urv)).^(1./2*ones(nsim,1)));
-    k =999;
+    urv = rand(nsim,1);
+    rv  = ones(nsim,1)./((-log(urv)).^(1./2*ones(nsim,1)));
+    k   = 999;
     
 % Calculate the empirical mean excess function 
-    rv=sort(rv,'descend');
-    t =rv(1:k+1);%t must be >0
+    rv = sort(rv,'descend');
+    t  = rv(1:k+1);%t must be >0
 for i=1:length(t)
-    y=rv(find(rv>t(i)));
-    MEF(i)=mean(y-t(i));
+    y      = rv(find(rv > t(i)));
+    MEF(i) = mean(y-t(i));
 end
 plot(t(3:k+1),MEF(3:k+1),'.','MarkerSize',10);
 hold on;

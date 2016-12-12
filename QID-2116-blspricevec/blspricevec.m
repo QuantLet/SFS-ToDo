@@ -2,17 +2,17 @@
 function [Call Put] = blspricevec(S,K,r,sigma,tau)
 %Black Scholes formula for vector inputs
 
-if tau==0 
-    t=1;
+if tau == 0 
+    t = 1;
 else
-    t=0;
+    t = 0;
 end
 
 y = (log(S./K)+(r-sigma.^2/2).*tau)/(sigma.*sqrt(tau)+t);
 
 cdfn = normcdf(y+sigma.*sqrt(tau));
     
-if t==0 
+if t == 0 
     t_l = 1;
 else
     t_l = 0;

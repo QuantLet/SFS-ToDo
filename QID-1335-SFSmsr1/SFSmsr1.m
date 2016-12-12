@@ -40,7 +40,7 @@ for i=1:m
     dat1(i,2) = max(randn(i,1)); %for normal distributions
     
     
-    dat2(i,1) = i*10;
+    dat2(i,1)  = i*10;
     dat2(i,2 ) = max(stabrnd(1.1, 0, 1, 1, i, 1) );%for stable distributions
   
 end

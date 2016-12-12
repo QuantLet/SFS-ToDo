@@ -15,5 +15,5 @@ Submitted: Sat, October 01 2011 by Awdesch Melzer
 Datafile: 'Bay9906_close_2kPoints.txt, Bmw9906_close_2kPoints.txt, Sie9906_close_2kPoints.txt, VaR9906_bMax_Portf.txt'
 
 Example: 'var_block_max_backtesting(x,y,z,v,h) where x,y,z are vectors of return; v is values of Value at Risk and h is size of the window, produces p the number of exceedances for Value at Risk 
-	and this plot of a Value-at-Risk estimation at 0.05 level for portfolio: Bayer, BMW, Siemens with size of moving window 250, size of block 16. Backtesting result alpha = 0:0514.'
+	 and this plot of a Value-at-Risk estimation at 0.05 level for portfolio: Bayer, BMW, Siemens with size of moving window 250, size of block 16. Backtesting result alpha = 0:0514.'
 

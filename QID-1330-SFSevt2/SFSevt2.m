@@ -25,12 +25,12 @@ clear
 clc
 close all
 
-n=100;
+n = 100;
 
 % Gumbel
 gumb1 = gevrnd(0,1,0,100,1);
 gumb2 = sort(gumb1);
-gumb = normcdf(gumb2,0,1);
+gumb  = normcdf(gumb2,0,1);
 
 t = (1:n)/(n+1);
 
@@ -44,7 +44,7 @@ title('PP Plot of Extreme Value - Gumbel')
 % Frechet
 frec1 = gevrnd(0.5,0.5,1,100,1);
 frec2 = sort(frec1);
-frec = normcdf(frec2,0,1);
+frec  = normcdf(frec2,0,1);
 
 t = (1:n)/(n+1);
 
@@ -60,7 +60,7 @@ title('PP Plot of Extreme Value - Frechet')
 % Weibull
 weib1 = gevrnd(-0.5,0.5,-1,100,1);
 weib2 = sort(weib1);
-weib = normcdf(weib2,0,1);
+weib  = normcdf(weib2,0,1);
 
 t = (1:n)/(n+1);
 

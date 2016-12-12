@@ -23,17 +23,17 @@
 clear
 clc
 close all
-n = 500;
-nor = stabrnd(2, 0, 1,0, n, 1);
-sta = stabrnd(1.5, 0, 1,0,n, 1);
-sumnor = quantile(nor,[.025 .25 .50 .75 .975]);
-noru   = sumnor(2)*ones(n,1);
-norl   = sumnor(4)*ones(n,1);
+n       = 500;
+nor     = stabrnd(2, 0, 1,0, n, 1);
+sta     = stabrnd(1.5, 0, 1,0,n, 1);
+sumnor  = quantile(nor,[.025 .25 .50 .75 .975]);
+noru    = sumnor(2)*ones(n,1);
+norl    = sumnor(4)*ones(n,1);
 noruu   = sumnor(1)*ones(n,1);
 norll   = sumnor(5)*ones(n,1);
-sumsta = quantile(sta,[.025 .25 .50 .75 .975]);
-stau   = sumsta(2)*ones(n,1);
-stal   = sumsta(4)*ones(n,1);
+sumsta  = quantile(sta,[.025 .25 .50 .75 .975]);
+stau    = sumsta(2)*ones(n,1);
+stal    = sumsta(4)*ones(n,1);
 stauu   = sumsta(1)*ones(n,1);
 stall   = sumsta(5)*ones(n,1);
 subplot(1,2,1);
