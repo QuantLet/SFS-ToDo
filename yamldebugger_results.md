@@ -2,7 +2,7 @@
 |:-------|:-------------------------------------|:----------------------------|:----------------------------|:--------------------------|:---------|:---------------------------|
 |A       |QID-1330-SFSevt2                      |SFSevt2                      |22 word(s), 131 Character(s) |9: 9 (standard), 0 (new)   |matlab, r |q, p, a, d, k, e, s, sa     |
 |A       |QID-1331-SFSheavytail                 |SFSheavytail                 |36 word(s), 210 Character(s) |5: 5 (standard), 0 (new)   |matlab, r |q, p, a, d, k, e, s, sa     |
-|B       |QID-1334-SFSmeanExcessFun             |SFSmeanExcessFun             |46 word(s), 273 Character(s) |4: 4 (standard), 0 (new)   |matlab, r |q, p, a, d, k, df, e, s, sa |
+|A       |QID-1334-SFSmeanExcessFun             |SFSmeanExcessFun             |46 word(s), 273 Character(s) |6: 6 (standard), 0 (new)   |matlab, r |q, p, a, d, k, df, e, s, sa |
 |A       |QID-1335-SFSmsr1                      |SFSmsr1                      |52 word(s), 263 Character(s) |5: 5 (standard), 0 (new)   |matlab, r |q, p, a, d, k, e, s, sa     |
 |A       |QID-1341-SFStailGEV                   |SFStailGEV                   |37 word(s), 185 Character(s) |5: 5 (standard), 0 (new)   |matlab, r |q, p, a, d, k, df, e, s, sa |
 |A       |QID-1342-SFStailGPareto               |SFStailGPareto               |38 word(s), 199 Character(s) |5: 5 (standard), 0 (new)   |matlab, r |q, p, a, d, k, df, o, s, sa |
