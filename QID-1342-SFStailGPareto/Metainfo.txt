@@ -10,7 +10,7 @@ See also: 'SFSmsr1, SFSheavytail, SFS_mef_frechet, SFEgpdist, SFEtailGEV_pp, SFS
 
 Author: Lasse Groth
 
-Submitted: Sat, October 01 2011 by Awdesch Melzer
+Submitted: Mon, December 12 2016 by Monique Reiske
 
 Datafile: 'Bay9906_close_2kPoints.txt, Bmw9906_close_2kPoints.txt, Sie9906_close_2kPoints.txt'
 

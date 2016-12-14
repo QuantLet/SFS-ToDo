@@ -8,9 +8,11 @@ Keywords: Frechet, MEF, distribution, empirical, plot
 
 See also: 'SFSevt2, SFSportfolio, SFStailGEV, SFStailGPareto, SFStailport, SFSvar_block_max_params, SFSvar_pot_params'
 
-Author: Lasse Groth, Barbara Choros-Tomczyk
+Author: Lasse Groth
 
-Submitted: Tue, December 22 2009 by Lasse Groth
+Submitted: Mon, December 12 2016 by Monique Reiske
+
+Author[MatLab]: Barbara Choros-Tomczyk
 
 Example: 'This plot shows the theoretical (red line) and empirical (blue line) mean excess function for the Frechet distriubtion with alpha = 2.'
 

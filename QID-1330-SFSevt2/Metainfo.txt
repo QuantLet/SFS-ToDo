@@ -8,9 +8,11 @@ Keywords: 'Frechet, Weibull, cdf, distribution, extreme-value, gumbel, normal, p
 
 See also: 'SFS_mef_frechet, SFEevt1, SFEevt2, SFSheavytail, SFSmeanExcessFun, SFSmeffrechet, SFSmsr1, SFSportfolio, SFSportfolio, SFSportfolio, SFStailGEV, SFStailGEV, SFStailGPareto, SFStailGPareto, SFStailport, SFSvar_block_max_backtesting, SFSvar_block_max_params, SFSvar_pot_backtesting, SFSvar_pot_params'
 
-Author: Juergen Franke, Lasse Groth
+Author: Lasse Groth
 
-Submitted: Tue, December 22 2009 by Lasse Groth
+Submitted: Mon, December 12 2016 by Monique Reiske
+
+Author[MatLab]: Juergen Franke
 
 Example: The plots show the distribution for 1. Gumbel, 2. Frechet and 3. Weibull.
 

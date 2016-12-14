@@ -10,7 +10,7 @@ See also: 'SFSevt2, SFSmeanExcessFun, SFSmsr1, SFSportfolio, SFStailGEV, SFStail
 
 Author: Lasse Groth
 
-Submitted: Mon, September 26 2011 by Awdesch Melzer
+Submitted: Mon, December 12 2016 by Monique Reiske
 
 Example: 'The plots show the simulation of 500 1.5-stable and normal variables with different quantiles.'
 

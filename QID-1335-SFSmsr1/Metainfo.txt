@@ -10,7 +10,7 @@ See also: 'SFSevt2, SFSheavytail, SFSmeanExcessFun, SFSportfolio, SFStailGEV, SF
 
 Author: Lasse Groth
 
-Submitted: Fri, September 30 2011 by Awdesch Melzer
+Submitted: Mon, December 12 2016 by Monique Reiske
 
 Example: The plots show the convergence rate of maxima for 1) standard normal cdf and 2) 1:1-stable cdf.
 
