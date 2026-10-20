@@ -19,13 +19,7 @@ Author: Weining Wang, Dedy Dwi Prastyo
 
 Submitted: Tue, December 22 2009 by Lasse Groth
 
-Example: These plots show random stock price movements with different delta t.
-
-miu: expected return p.a. = 0.11
-
-sigma: volatility p.a.    = 0.2
-
-m: starting value         = 49
+Example: These plots show random stock price movements with different delta t. miu: expected return p.a. = 0.11 sigma: volatility p.a.    = 0.2 m: starting value         = 49
 
 ```
 <div align="center">
